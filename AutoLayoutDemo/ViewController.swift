@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+//        passwordField.resignFirstResponder()
+//        userNameField.resignFirstResponder()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

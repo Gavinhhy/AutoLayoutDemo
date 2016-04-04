@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="MyTableViewCell" customModule="AutoLayoutDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="371" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nef-Zp-Bm3">
+                        <rect key="frame" x="5" y="5" width="361" height="87"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F4U-Mi-2jz">
+                                <rect key="frame" x="0.0" y="0.0" width="87" height="87"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="87" id="5Yx-ev-jbo"/>
+                                    <constraint firstAttribute="height" constant="87" id="Ewj-X4-2wF"/>
+                                    <constraint firstAttribute="width" constant="87" id="W0s-jz-A3x"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRg-PG-dP5">
+                                <rect key="frame" x="108" y="36" width="245" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHz-To-gDX">
+                                <rect key="frame" x="108" y="0.0" width="245" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FLe-qO-doc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="FLe-qO-doc"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="F4U-Mi-2jz" secondAttribute="bottom" id="Eou-on-wa6"/>
+                            <constraint firstItem="F4U-Mi-2jz" firstAttribute="top" secondItem="nef-Zp-Bm3" secondAttribute="top" id="Eyf-1Y-ivD"/>
+                            <constraint firstItem="vHz-To-gDX" firstAttribute="leading" secondItem="F4U-Mi-2jz" secondAttribute="trailing" constant="21" id="KDB-7n-H4R"/>
+                            <constraint firstItem="vHz-To-gDX" firstAttribute="leading" secondItem="IRg-PG-dP5" secondAttribute="leading" id="TK8-LW-jqV"/>
+                            <constraint firstItem="IRg-PG-dP5" firstAttribute="top" secondItem="vHz-To-gDX" secondAttribute="bottom" constant="10" id="WuA-qT-u6j"/>
+                            <constraint firstItem="vHz-To-gDX" firstAttribute="top" secondItem="nef-Zp-Bm3" secondAttribute="topMargin" id="ctW-6U-wmW"/>
+                            <constraint firstItem="vHz-To-gDX" firstAttribute="top" secondItem="IRg-PG-dP5" secondAttribute="top" constant="-36" id="cxj-xF-H9j"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="ctW-6U-wmW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="nef-Zp-Bm3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="J4Z-Pp-DBp"/>
+                    <constraint firstAttribute="trailing" secondItem="nef-Zp-Bm3" secondAttribute="trailing" constant="5" id="Qvt-D6-VJn"/>
+                    <constraint firstAttribute="trailing" secondItem="IRg-PG-dP5" secondAttribute="trailing" constant="13" id="TPi-pk-cjR"/>
+                    <constraint firstItem="nef-Zp-Bm3" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="WXd-tr-shW"/>
+                    <constraint firstAttribute="bottom" secondItem="nef-Zp-Bm3" secondAttribute="bottom" constant="5" id="Xad-ui-ljp"/>
+                    <constraint firstItem="F4U-Mi-2jz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-3" id="YUY-A5-l59"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="vHz-To-gDX" secondAttribute="trailing" constant="5" id="grN-Mv-Ujh"/>
+                    <constraint firstItem="vHz-To-gDX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="iAf-1x-u0U"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="customDesc" destination="IRg-PG-dP5" id="jGG-q1-aab"/>
+                <outlet property="customImage" destination="F4U-Mi-2jz" id="rUp-f5-cQE"/>
+                <outlet property="customTitle" destination="vHz-To-gDX" id="iFt-Xa-RJg"/>
+                <outlet property="customView" destination="nef-Zp-Bm3" id="xvw-uT-rG8"/>
+            </connections>
+            <point key="canvasLocation" x="391.5" y="299.5"/>
+        </tableViewCell>
+    </objects>
+</document>

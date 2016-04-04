@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862A40151CB112D100F2D721 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A40141CB112D100F2D721 /* ViewController2.swift */; };
+		862A40171CB1201500F2D721 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A40161CB1201500F2D721 /* DetailViewController.swift */; };
+		862A401D1CB15B9000F2D721 /* CaseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A401C1CB15B9000F2D721 /* CaseList.swift */; };
+		862A40201CB1683D00F2D721 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862A401E1CB1683D00F2D721 /* MyTableViewCell.swift */; };
+		862A40211CB1683D00F2D721 /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862A401F1CB1683D00F2D721 /* MyTableViewCell.xib */; };
+		862A40271CB1723700F2D721 /* tiao1.png in Resources */ = {isa = PBXBuildFile; fileRef = 862A40221CB1723700F2D721 /* tiao1.png */; };
+		862A40281CB1723700F2D721 /* tiao2.png in Resources */ = {isa = PBXBuildFile; fileRef = 862A40231CB1723700F2D721 /* tiao2.png */; };
+		862A40291CB1723700F2D721 /* tiao3.png in Resources */ = {isa = PBXBuildFile; fileRef = 862A40241CB1723700F2D721 /* tiao3.png */; };
+		862A402A1CB1723700F2D721 /* tiao4.png in Resources */ = {isa = PBXBuildFile; fileRef = 862A40251CB1723700F2D721 /* tiao4.png */; };
+		862A402B1CB1723700F2D721 /* tiao5.png in Resources */ = {isa = PBXBuildFile; fileRef = 862A40261CB1723700F2D721 /* tiao5.png */; };
+		866FD4231CB232EF00966574 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866FD4221CB232EF00966574 /* SwiftyJSON.swift */; };
 		867A23721CACC5B4002FBD90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A23711CACC5B4002FBD90 /* AppDelegate.swift */; };
 		867A23741CACC5B4002FBD90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867A23731CACC5B4002FBD90 /* ViewController.swift */; };
 		867A23771CACC5B4002FBD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867A23751CACC5B4002FBD90 /* Main.storyboard */; };
@@ -14,7 +25,31 @@
 		867A237C1CACC5B4002FBD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867A237A1CACC5B4002FBD90 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		862A40601CB2293100F2D721 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		862A40141CB112D100F2D721 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		862A40161CB1201500F2D721 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		862A401C1CB15B9000F2D721 /* CaseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaseList.swift; sourceTree = "<group>"; };
+		862A401E1CB1683D00F2D721 /* MyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		862A401F1CB1683D00F2D721 /* MyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		862A40221CB1723700F2D721 /* tiao1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiao1.png; path = ../../tiao1.png; sourceTree = "<group>"; };
+		862A40231CB1723700F2D721 /* tiao2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiao2.png; path = ../../tiao2.png; sourceTree = "<group>"; };
+		862A40241CB1723700F2D721 /* tiao3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiao3.png; path = ../../tiao3.png; sourceTree = "<group>"; };
+		862A40251CB1723700F2D721 /* tiao4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiao4.png; path = ../../tiao4.png; sourceTree = "<group>"; };
+		862A40261CB1723700F2D721 /* tiao5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tiao5.png; path = ../../tiao5.png; sourceTree = "<group>"; };
+		866FD4221CB232EF00966574 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = "../../../Downloads/SwiftyJSON-master/Source/SwiftyJSON.swift"; sourceTree = "<group>"; };
 		867A236E1CACC5B4002FBD90 /* AutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867A23711CACC5B4002FBD90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		867A23731CACC5B4002FBD90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +89,23 @@
 		867A23701CACC5B4002FBD90 /* AutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				866FD4221CB232EF00966574 /* SwiftyJSON.swift */,
 				867A23711CACC5B4002FBD90 /* AppDelegate.swift */,
 				867A23731CACC5B4002FBD90 /* ViewController.swift */,
 				867A23751CACC5B4002FBD90 /* Main.storyboard */,
+				862A40221CB1723700F2D721 /* tiao1.png */,
+				862A40231CB1723700F2D721 /* tiao2.png */,
+				862A40241CB1723700F2D721 /* tiao3.png */,
+				862A40251CB1723700F2D721 /* tiao4.png */,
+				862A40261CB1723700F2D721 /* tiao5.png */,
+				862A40161CB1201500F2D721 /* DetailViewController.swift */,
+				862A40141CB112D100F2D721 /* ViewController2.swift */,
 				867A23781CACC5B4002FBD90 /* Assets.xcassets */,
 				867A237A1CACC5B4002FBD90 /* LaunchScreen.storyboard */,
 				867A237D1CACC5B4002FBD90 /* Info.plist */,
+				862A401C1CB15B9000F2D721 /* CaseList.swift */,
+				862A401E1CB1683D00F2D721 /* MyTableViewCell.swift */,
+				862A401F1CB1683D00F2D721 /* MyTableViewCell.xib */,
 			);
 			path = AutoLayoutDemo;
 			sourceTree = "<group>";
@@ -74,6 +120,7 @@
 				867A236A1CACC5B4002FBD90 /* Sources */,
 				867A236B1CACC5B4002FBD90 /* Frameworks */,
 				867A236C1CACC5B4002FBD90 /* Resources */,
+				862A40601CB2293100F2D721 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,8 +170,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				867A237C1CACC5B4002FBD90 /* LaunchScreen.storyboard in Resources */,
+				862A40211CB1683D00F2D721 /* MyTableViewCell.xib in Resources */,
 				867A23791CACC5B4002FBD90 /* Assets.xcassets in Resources */,
+				862A40271CB1723700F2D721 /* tiao1.png in Resources */,
+				862A40291CB1723700F2D721 /* tiao3.png in Resources */,
+				862A402A1CB1723700F2D721 /* tiao4.png in Resources */,
 				867A23771CACC5B4002FBD90 /* Main.storyboard in Resources */,
+				862A40281CB1723700F2D721 /* tiao2.png in Resources */,
+				862A402B1CB1723700F2D721 /* tiao5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				862A401D1CB15B9000F2D721 /* CaseList.swift in Sources */,
 				867A23741CACC5B4002FBD90 /* ViewController.swift in Sources */,
 				867A23721CACC5B4002FBD90 /* AppDelegate.swift in Sources */,
+				862A40151CB112D100F2D721 /* ViewController2.swift in Sources */,
+				862A40171CB1201500F2D721 /* DetailViewController.swift in Sources */,
+				866FD4231CB232EF00966574 /* SwiftyJSON.swift in Sources */,
+				862A40201CB1683D00F2D721 /* MyTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +307,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gavin.AutoLayoutDemo;
@@ -260,6 +320,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = AutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Gavin.AutoLayoutDemo;
@@ -286,6 +348,7 @@
 				867A23821CACC5B4002FBD90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
